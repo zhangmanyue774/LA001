@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LA001">
+<!--        项目默认的启动 Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -20,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" android:exported="true" />
+<!--        Activity 学习 -->
         <activity android:name=".Activity.HomeActivity" android:exported="true" />
         <activity android:name=".Activity.SettingActivity" android:exported="true" />
         <activity
@@ -32,5 +33,5 @@
             </intent-filter>
         </activity>
     </application>
-
+<!--    DataBinding 学习 -->
 </manifest>
